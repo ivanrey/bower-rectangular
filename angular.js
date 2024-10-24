@@ -1,8 +1,3 @@
-/**
- * @license AngularJS v1.5.11
- * (c) 2010-2017 Google, Inc. http://angularjs.org
- * License: MIT
- */
 (function(window) {'use strict';
 
 /**
@@ -57,7 +52,7 @@ function minErr(module, ErrorConstructor) {
       return match;
     });
 
-    message += '\nhttp://errors.angularjs.org/1.5.11/' +
+    message += '\nhttp://errors.angularjs.org/1.5.23/' +
       (module ? module + '/' : '') + code;
 
     for (i = SKIP_INDEXES, paramPrefix = '?'; i < templateArgs.length; i++, paramPrefix = '&') {
@@ -2571,11 +2566,12 @@ function toDebugString(obj) {
 var version = {
   // These placeholder strings will be replaced by grunt's `build` task.
   // They need to be double- or single-quoted.
-  full: '1.5.11',
+  full: '1.5.23',
   major: 1,
   minor: 5,
-  dot: 11,
-  codeName: 'princely-quest'
+  dot: 23,
+  codeName: 'sportly-queen',
+  vendor: 'XLTS.dev'
 };
 
 
