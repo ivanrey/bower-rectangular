@@ -52,7 +52,7 @@ function minErr(module, ErrorConstructor) {
       return match;
     });
 
-    message += '\nhttp://errors.angularjs.org/1.5.23/' +
+    message += '\nhttp://errors.angularjs.org/1.5.11/' +
       (module ? module + '/' : '') + code;
 
     for (i = SKIP_INDEXES, paramPrefix = '?'; i < templateArgs.length; i++, paramPrefix = '&') {
@@ -2566,11 +2566,11 @@ function toDebugString(obj) {
 var version = {
   // These placeholder strings will be replaced by grunt's `build` task.
   // They need to be double- or single-quoted.
-  full: '1.5.23',
+  full: '1.9.25',
   major: 1,
-  minor: 5,
-  dot: 23,
-  codeName: 'sportly-queen',
+  minor: 9,
+  dot: 25,
+  codeName: 'inp-hercules',
   vendor: 'XLTS.dev'
 };
 
